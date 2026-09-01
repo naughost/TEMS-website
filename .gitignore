@@ -1,0 +1,8 @@
+# 系統檔
+.DS_Store
+Thumbs.db
+# 編輯器
+.vscode/
+*.swp
+# 沙盒殘留（請在 Mac 上刪除此資料夾）
+_git_broken_DELETE_ME/

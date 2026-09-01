@@ -1,0 +1,10 @@
+# Netlify 部署設定（純靜態網站，無建置步驟）
+[build]
+  publish = "."
+  command = ""
+
+# 讓 /issues/2026-06 這類乾淨網址正常運作（Netlify 預設即支援 .html 省略）
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
